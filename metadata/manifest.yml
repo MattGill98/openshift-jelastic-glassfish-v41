@@ -1,7 +1,7 @@
 Name: glassfish
-Cartridge-Short-Name: GLASSFISH4
-Display-Name: GLASSFISH4
-Description: "Jelastic Glassfish4"
+Cartridge-Short-Name: FORKEDGLASSFISH4
+Display-Name: FORKEDGLASSFISH4
+Description: "Mike's Forked Jelastic Glassfish4"
 Version: '4.1.1'
 License: 'Common Development and Distribution License and GNU General Public License'
 Vendor: 'Oracle'   
