@@ -1,19 +1,19 @@
-Name: MikeGlassfish
-Cartridge-Short-Name: FORKEDGLASSFISH4
-Display-Name: FORKEDGLASSFISH4
-Description: "Mike's Forked Jelastic Glassfish4"
-Version: '4.1.1'
+Name: Payara Server Full
+Cartridge-Short-Name: PAYARASERVERFULL
+Display-Name: PAYARASERVERFULL
+Description: "Payara Server Full"
+Version: '4.1.2.172'
 License: 'Common Development and Distribution License and GNU General Public License'
-Vendor: 'Oracle'   
+Vendor: 'Payara'   
 Cartridge-Version: 1.0.0
-Cartridge-Vendor: 'Jelastic'
+Cartridge-Vendor: 'Payara'
 Categories:
   - service
   - embedded
 Source-Url: https://github.com/mikecroft/openshift-jelastic-glassfish-v41.git
-Website: http://jelastic.com/
+Website: https://www.payara.fish
 Help-Topics:
-  "Developer Center": https://jelastic.com
+  "Developer Center": https://www.payara.fish
 Cart-Data:
   - Key: OPENSHIFT_APP_DNS
     Type: environment
