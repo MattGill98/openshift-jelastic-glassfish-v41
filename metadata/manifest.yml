@@ -1,7 +1,7 @@
-Name: Payara Server Full
-Cartridge-Short-Name: PAYARASERVERFULL
-Display-Name: PAYARASERVERFULL
-Description: "Payara Server Full"
+Name: Payara Server Full (Matt)
+Cartridge-Short-Name: PAYARASERVERFULLMATT
+Display-Name: PAYARASERVERFULLMATT
+Description: "Payara Server Full - Matt's Attempt"
 Version: '4.1.2.172'
 License: 'Common Development and Distribution License and GNU General Public License'
 Vendor: 'Payara'   
@@ -10,7 +10,7 @@ Cartridge-Vendor: 'Payara'
 Categories:
   - service
   - embedded
-Source-Url: https://github.com/mikecroft/openshift-jelastic-glassfish-v41.git
+Source-Url: https://github.com/MattGill98/openshift-jelastic-payara-v412.git
 Website: https://www.payara.fish
 Help-Topics:
   "Developer Center": https://www.payara.fish
