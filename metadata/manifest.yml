@@ -10,7 +10,7 @@ Cartridge-Vendor: 'Payara'
 Categories:
   - service
   - embedded
-Source-Url: https://github.com/mikecroft/openshift-jelastic-glassfish-v41.git
+Source-Url: https://github.com/MattGill98/openshift-jelastic-payara-v412.git
 Website: https://www.payara.fish
 Help-Topics:
   "Developer Center": https://www.payara.fish
