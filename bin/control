@@ -32,7 +32,7 @@ start() {
         echo
         [ $RETVAL -eq 0 ] && touch /opt/repo/lock/glassfish && echo $PID > /opt/repo/pid/glassfish.pid;
         return $RETVAL
-}
+} >> /opt/repo/logs/jelastic.log 2>&1
 
 stop() {
         echo  $"Stopping $prog: "
@@ -47,7 +47,7 @@ stop() {
         echo
         [ $RETVAL -eq 0 ] && rm -f /opt/repo/lock/glassfish && rm /opt/repo/pid/glassfish.pid;
         return $RETVAL
-}
+} >> /opt/repo/logs/jelastic.log 2>&1
 
 status() {
         if [ -f /opt/repo/pid/glassfish.pid ]; then
@@ -61,7 +61,7 @@ status() {
         else
                 echo "Glassfish server is not running"
         fi
-}
+} >> /opt/repo/logs/jelastic.log 2>&1
 
 case "$1" in
 start)
