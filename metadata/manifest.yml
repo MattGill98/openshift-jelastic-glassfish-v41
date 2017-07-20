@@ -1,7 +1,7 @@
-Name: Payara Server Full (Matt)
-Cartridge-Short-Name: PAYARASERVERFULLMATT
-Display-Name: PAYARASERVERFULLMATT
-Description: "Payara Server Full - Matt's Attempt"
+Name: Payara Server Full
+Cartridge-Short-Name: PAYARASERVERFULL
+Display-Name: PAYARASERVERFULL
+Description: "Payara Server Full"
 Version: '4.1.2.172'
 License: 'Common Development and Distribution License and GNU General Public License'
 Vendor: 'Payara'   

@@ -2,8 +2,6 @@
 
 source /etc/jelastic/environment
 
-echo "Cartridge home: ${CARTRIDGE_HOME}" >> /opt/repo/logs/jelastic.log 2>&1 
-
 [ -d $CARTRIDGE_HOME/logs ] && { rm -rf $CARTRIDGE_HOME/logs; ln -s $CARTRIDGE_HOME/versions/$Version/glassfish/domains/domain1/logs $CARTRIDGE_HOME/logs; chown jelastic:jelastic $CARTRIDGE_HOME/logs;  }
 
 #service cartridge restart 2>&1 1>/dev/null
